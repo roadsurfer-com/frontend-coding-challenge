@@ -1,4 +1,4 @@
-# 🏕️ Frontend Coding Task
+# 🏕️ Frontend Coding Challenge
 
 ## 📜 Introduction
 
