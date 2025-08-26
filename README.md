@@ -27,14 +27,12 @@ For simplicity, let’s agree that a booking should always be returned to the sa
 - **Mobile and Desktop Views**: Implement a responsive grid with mobile and desktop views.
 - **Week View**: Design a calendar-like week view with **7 tiles**, one for each weekday.
 - **Pagination**: Implement pagination to switch between weeks.
-- **Station Selector**: Use your **autocomplete component** to select a station (the station where the booking starts or ends). You can fetch the list of stations here:
-  - [Mock API for Stations](https://605c94c36d85de00170da8b4.mockapi.io/stations)
+- **Station Selector**: Use your **autocomplete component** to select a station (the station where the booking starts or ends). You can fetch the list of stations here: `https://605c94c36d85de00170da8b4.mockapi.io/stations`
 - **Bookings Display**: On each day-tile, display bookings that start or end on that day at the selected station.
 - **Booking Click**: When a booking is clicked, open a **new view** with the booking details (see below).
 
 ### 3. **Booking Detail View 📝**
-- **Booking Information**: Retrieve booking details here:
-  - [Mock API for Booking Details](https://605c94c36d85de00170da8b4.mockapi.io/stations/{station-id}/bookings/{booking-id})
+- **Booking Information**: Retrieve booking details here: `https://605c94c36d85de00170da8b4.mockapi.io/stations/{station-id}/bookings/{booking-id}`
 - Display the following booking details:
   - **Customer Name**
   - **Booking Start Date**
